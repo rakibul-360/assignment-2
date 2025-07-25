@@ -302,3 +302,44 @@
 
 
 
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 1440px;
+  height: 348px;
+  
+}
+.footer-logo{
+  width: 359px;
+  height: 178px;
+}
+.footer-logo p{
+  color: gray;
+  font-size: 1em;
+}
+.footer-menu ul, .footer-menu-two ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  gap: 15px;
+}
+.footer-menu li, .footer-menu-two li{ 
+  list-style: none;
+  
+}
+.footer-menu a, .footer-menu-two a{ 
+  text-decoration: none;
+  color: gray;
+  
+}
+.footer-icon{
+  display: flex;
+  gap: 20px;
+}
+.footer-icon img{
+  width: 36px;
+  height: 36px;
+}
