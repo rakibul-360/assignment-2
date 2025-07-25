@@ -128,3 +128,31 @@
 
 
 
+
+.flower-plant-section {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  max-width: 1140px;
+  max-height: 597px;
+  margin: 0 auto;
+}
+.badge {
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 370px;
+}
+.badge img {
+  max-width: 300px;
+}
+.plant-img {
+  width: 100%;
+}
+.plant-title h3 {
+  font-weight: 600px;
+  font-size: 4rem;
+}
+.plant-title ul li {
+  font-size: 22px;
+  color: gray;
+}
