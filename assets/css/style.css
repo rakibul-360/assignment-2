@@ -343,3 +343,26 @@
   width: 36px;
   height: 36px;
 }
+
+
+
+/* Responsive navbar  */
+@media screen and (max-width: 576px) {
+  .lists li {
+    display: none;
+  }
+  .nav-section {
+    margin-top: -30px;
+    margin-bottom: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .logo-side img {
+    width: 80%;
+  }
+  .add-to-cart {
+    margin-top: 50px;
+    font-size: 1.5em;
+  }
+}
