@@ -256,3 +256,49 @@
 
 
 
+ 
+.joint-section {
+  margin-top: 50px;
+  width: 1440px;
+}
+
+.joint-title {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/news-letter-bg.png");
+  width: 100%;
+  height: 533px;
+}
+.joint-title h3 {
+  text-align: center;
+  font-weight: 200px;
+  font-size: 3em;
+  color: white;
+}
+.joint-inter {
+  padding: 50px;
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  display: flex;
+  margin-top: -30px;
+}
+.email {
+  width: 644px;
+  height: 50px;
+}
+.subscribe {
+  padding: 7px 35px;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  font-size: 1em;
+}
+.subscribe:hover {
+  background-color: brown;
+}
+
+
+
+
