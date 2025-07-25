@@ -36,3 +36,27 @@
 }
 
 
+
+/* second section start  */
+.banner-title-image {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.banner-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.banner-title h3 {
+  font-weight: 700;
+  font-size: 3em;
+}
+.flowers-primary-text {
+  color: #e95a08;
+}
+.banner-img img {
+  width: 100%;
+}
